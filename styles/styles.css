@@ -55,6 +55,7 @@ main .user input {
 
 main .user input:focus {
   border: 2px solid #096d8f;
+  outline: none;
 }
 
 main .buttons {

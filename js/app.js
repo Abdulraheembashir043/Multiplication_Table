@@ -34,11 +34,18 @@ btn.addEventListener('click', () => {
   let number = input1.value;
   let range = input2.value;
   
-  calculate(number, range);
+  if(number === '' || range === '') {
+    result.innerHTML = '';
+    title.textContent = '';
+    result.style.display = 'none';
+    input1.focus();
+  } else {
+    calculate(number, range);
+  }
 })
 
 clear.addEventListener('click', () => {
-  refresh()
+  refresh();
   result.style.display = 'none';
 })
 
