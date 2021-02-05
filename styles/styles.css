@@ -1,0 +1,76 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+main {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 350px;
+  margin: 50px auto 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 1.5em;
+}
+
+main .user {
+  margin: 10px 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+main .user label {
+  font-weight: bold;
+}
+
+main .user input {
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid;
+}
+
+main .user input:focus {
+  border: 2px solid #096d8f;
+}
+
+main .buttons {
+  margin: 10px 0;
+}
+
+main .buttons button {
+  padding: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  background: #096d8f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+main .display-result h2 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+main .display-result p {
+  display: none;
+  margin: 0 auto;
+  border: 2px solid #096d8f;
+  border-radius: 5px;
+  width: 200px;
+}
+/*# sourceMappingURL=styles.css.map */
