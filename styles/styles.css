@@ -30,12 +30,23 @@ main .user {
       grid-template-columns: 1fr 1fr;
 }
 
+main .user .input {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+main .user .range {
+  -ms-grid-column-align: start;
+      justify-self: start;
+  margin-left: 10px;
+}
+
 main .user label {
   font-weight: bold;
 }
 
 main .user input {
-  width: 50px;
+  width: 45px;
   padding: 5px;
   text-align: center;
   font-weight: bold;
